@@ -62,6 +62,24 @@
 
 // number 6
 
-let strNum: string = "100";
-let numberFromAssertion: number = parseInt(strNum);
-console.log(numberFromAssertion);
+// let strNum: string = "100";
+// let numberFromAssertion: number = parseInt(strNum);
+// console.log(numberFromAssertion);
+
+type Student = {
+  id: number;
+  name: string;
+  age: number;
+};
+
+let student1: Student = {
+  id: 1,
+  name: "Max",
+  age: 18,
+};
+
+function printInfo(student: Student) {
+  console.log(student.id, student.name, student.age);
+}
+
+printInfo(student1);
