@@ -19,19 +19,27 @@
 // }
 // exampleFunc();
 // number 3
-var num = 5;
-var str = "string";
-var bool = true;
-var und = undefined;
-var result = num + 2;
-console.log(result);
-var strResult = "This is a " + str;
-console.log(strResult);
-var isTrue = bool && true;
-console.log(isTrue);
-if (und == undefined) {
-    console.log("is undefind");
-}
-else {
-    console.log("is defind");
-}
+// let num: number = 5;
+// let str: string = "string";
+// let bool: boolean = true;
+// let und: undefined = undefined;
+// let result = num + 2;
+// console.log(result);
+// let strResult = "This is a " + str;
+// console.log(strResult);
+// let isTrue = bool && true;
+// console.log(isTrue);
+// if (und == undefined) {
+//   console.log("is undefind");
+// } else {
+//   console.log("is defind");
+// }
+// number 4
+// let num : number;
+// num = "num is number type";
+// number 5
+// let infereType = true;
+// number 6
+var strNum = "100";
+var numberFromAssertion = parseInt(strNum);
+console.log(numberFromAssertion);

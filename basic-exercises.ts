@@ -58,4 +58,10 @@
 
 // number 5
 
-let infereType = true;
+// let infereType = true;
+
+// number 6
+
+let strNum: string = "100";
+let numberFromAssertion: number = parseInt(strNum);
+console.log(numberFromAssertion);
