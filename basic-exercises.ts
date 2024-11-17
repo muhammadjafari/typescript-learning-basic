@@ -31,22 +31,27 @@
 
 // number 3
 
-let num: number = 5;
-let str: string = "string";
-let bool: boolean = true;
-let und: undefined = undefined;
+// let num: number = 5;
+// let str: string = "string";
+// let bool: boolean = true;
+// let und: undefined = undefined;
 
-let result = num + 2;
-console.log(result);
+// let result = num + 2;
+// console.log(result);
 
-let strResult = "This is a " + str;
-console.log(strResult);
+// let strResult = "This is a " + str;
+// console.log(strResult);
 
-let isTrue = bool && true;
-console.log(isTrue);
+// let isTrue = bool && true;
+// console.log(isTrue);
 
-if (und == undefined) {
-  console.log("is undefind");
-} else {
-  console.log("is defind");
-}
+// if (und == undefined) {
+//   console.log("is undefind");
+// } else {
+//   console.log("is defind");
+// }
+
+// number 4
+
+// let num : number;
+// num = "num is number type";
