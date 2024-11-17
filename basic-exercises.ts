@@ -55,3 +55,7 @@
 
 // let num : number;
 // num = "num is number type";
+
+// number 5
+
+let infereType = true;
